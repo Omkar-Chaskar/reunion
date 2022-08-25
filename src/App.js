@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='container w-full'>
       <Navbar />
-      <div class="w-full h-min grid gap-4 m-7">
+      <div className="w-full h-min grid gap-4 m-7">
         <FilterBar />
         <ProductList />
       </div>
