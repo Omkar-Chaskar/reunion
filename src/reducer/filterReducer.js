@@ -3,13 +3,13 @@ export function filterReducer(filterState, action) {
     case "FILTER_BY_LOCATION":
       return {
         ...filterState,
-        location: action.payload,
+        location: action.payload
       };
 
     case "FILTER_BY_FURNISH":
       return {
         ...filterState,
-        furnish: action.payload,
+        furnish: action.payload
       };
 
     case "FILTER_BY_PRICE":
@@ -31,11 +31,11 @@ export function filterReducer(filterState, action) {
       return {
         location: "",
         furnished: "",
-        rent: "",
-        sqft: "",
-        bed: "",
-        parking: "",
-        bathroom: "",
+        rent: "9999",
+        sqft: "9999",
+        bed: "9",
+        parking: "9",
+        bathroom: "9",
       };
 
     default:

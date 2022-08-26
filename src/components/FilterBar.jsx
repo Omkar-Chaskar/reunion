@@ -55,7 +55,7 @@ function FilterBar() {
           }
           value = {filterState.rent}
           >
-            <option value="">Any Price</option>
+            <option value="9999">Any Price</option>
             <option value="1000">1000</option>
             <option value="2000">2000</option>
             <option value="3000">3000</option>
@@ -72,7 +72,7 @@ function FilterBar() {
           }
           value = {filterState.sqft}
           >
-            <option value="">Floor Area</option>
+            <option value="9999">Floor Area</option>
             <option value="1000">1000</option>
             <option value="2000">2000</option>
             <option value="3000">3000</option>
@@ -89,7 +89,7 @@ function FilterBar() {
           }
           value = {filterState.bed}
           >
-            <option value="">Bedrooms</option>
+            <option value="9">Bedrooms</option>
             <option value="1">1 bedroom</option>
             <option value="2">2 bedrooms</option>
             <option value="3">3 bedrooms</option>
@@ -108,7 +108,7 @@ function FilterBar() {
           }
           value = {filterState.parking}
           >
-            <option value="">Parking</option>
+            <option value="9">Parking</option>
             <option value="1">1 Vehicle</option>
             <option value="2">2 Vehicle</option>
             <option value="3">3 Vehicle</option>
@@ -120,9 +120,9 @@ function FilterBar() {
               type: "FILTER_BY_BATHROOMS",
               payload: e.target.value})
           }
-          value = {filterState.bethroom}
+          value = {filterState.bathroom}
           >
-            <option value="">Bathrooms</option>
+            <option value="9">Bathrooms</option>
             <option value="1">1 space</option>
             <option value="2">2 space</option>
             <option value="3">3 space</option>
